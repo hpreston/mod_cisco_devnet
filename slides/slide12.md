@@ -1,1 +1,1 @@
-![](DevNet-overview-slides-may-25-2016/Slide12.png)
+![](images/Slide12.png)
