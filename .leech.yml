@@ -1,0 +1,13 @@
+input_file: ./README.md
+output_directory: ./slides
+output_filename: slide
+reveal:
+  template:
+  template_color: FFFFFF
+  intro:
+  intro_title: DevNet
+  intro_author: Matt DeNapoli / Cisco Systems Inc. / @denapom11
+  intro_color: 049FD9
+  closing:
+  closing_message: Thank you!
+  closing_color: 049FD9
