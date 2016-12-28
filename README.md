@@ -18,43 +18,82 @@ Though DevNet provides a number of assets, the most important is to provide cont
 
 The DevNet portal is currently broken up into DevCenters that contain several microsites pertaining to individual technologies.  In addition, there are some "spoke" sites off of the DevNet "hub".  Cisco Spark (https://developer.ciscospark.com) is an example of this.
 
-### Go Do It Exercises
+[item]: # (slide)
+## Summary: Cisco DevNet
 
+* Cisco's developer relations program
+* Not just a portal (developer.cisco.com)
+* Sandboxes, Learning Labs, Developer Support, events
+
+[item]: # (/slide)
+
+[item]: # (slide)
+### Go Do It Exercises
+[item]: # (/slide)
+
+[item]: # (slide)
 #### APIC-EM task
 1. Find APIC-EM docs through DevNet
 2. Find the API call to identify the hosts managed by the controller
 3. Run the API call in documentation to create a ticket (aka access token) (username: devnetuser, password: Cisco123)
+[item]: # (/slide)
 
+[item]: # (slide)
 #### CMX task
 1. Find CMX docs through DevNet
 2. Find API call to identify the number of clients being tracked by the mobility services engine
 3. Run the API call in the documentation (username: learning, password: learning)
+[item]: # (/slide)
 
+[item]: # (slide)
 #### Spark task
 1. Find Spark docs through DevNet
 2. Find API call to identify list of rooms you are a member of
 3. Run the API call in the documentation to list the rooms
+[item]: # (/slide)
+
 
 ## [Learning Labs](https://learninglabs.cisco.com)
 
-DevNet also prides itself on being an educational organization.  Starting at Cisco Live! US 2014, DevNet introduced [Learning Labs](https://learninglabs.cisco.com).  Learning Labs are self paced tutorials lasting 15-40 minutes in length designed to introduce users to new technologies in a step by step manner.  They are now organized into modules and tracks to allow users to focus on the labs that pertain specifically to their goals
+Developers love learning new things, and DevNet offers educational content.  Starting at Cisco Live! US 2014, DevNet introduced [Learning Labs](https://learninglabs.cisco.com).  Learning Labs are self paced tutorials that last 15-40 minutes.  They are designed to introduce developers to new technologies in a step-by-step manner.  The Labs are organized into Modules and Tracks to allow users to focus on the labs that pertain specifically to their goals (e.g., Network Programmability, Cloud Collaboration applications, Infrastructure Programmability and so on).  Because Modules and Tracks contain many learning labs, completion of a Module or Track can be many hours of content and exercises.
+
+[item]: # (slide)
+## Summary: Learning Labs
+
+* An online resource for technical tutorials
+* Relatively short 15-40 labs
+* Labs can be combined to form educational Tracks.
+[item]: # (/slide)
 
 ### Go Do It Exercises
 
 #### Pick 2 learning labs of interest and complete them
-#### [Building new Learning Labs](https://github.com/denapom11/imapex101/blob/master/module6/LearningLabs.md)
 
-DevNet provides the ability for any internal engineer or doc writer to build out a learning lab on a topic that they feel the larger developer community may find useful.  Documentation on how to do this is covered [here](https://github.com/denapom11/imapex101/blob/master/module6/LearningLabs.md)
+
+#### [Building new Learning Labs](LearningLabs.md)
+
+DevNet provides the ability for any internal engineer or doc writer to build out a learning lab on a topic that they feel the larger developer community may find useful.  Documentation on how to do this is covered [here](LearningLabs.md)
 
 
 ## Sandboxes
 
-Docmentation, tutorials and sample code are useless if developers don't have a sufficient environment to run their code against.  That's where the [DevNet Sandbox](https://devnetsandbox.cisco.com) comes in.  The DevNet Sandbox provides a few dozen combinations of technologies and infrastructure topologies for reservation or anytime use (these are know as "Always-On").  This allows application developers to have an environment to test out their applications or solutions without having to spend a lot of time and/or money to get their lab up and running.  
+Documentation, tutorials and sample code are great, but a developer also needs to run code against an environment.  That's where the [DevNet Sandbox](https://devnetsandbox.cisco.com) comes in.  The DevNet Sandbox provides a few dozen combinations of technologies and infrastructure topologies that can be reserved or that are shared and are "always on".  This allows application developers to have an environment to test out their applications or solutions without having to spend a lot of time and/or money to get their lab up and running.  Many of the Learning Labs utilize the DevNet Sandbox for a hands-on learning experience.
+
+[item]: # (slide)
+## Summary: DevNet Sandbox
+
+* Reservation-based or shared environments for trying out your code
+* Linked up with DevNet Learning Labs in most cases
+[item]: # (/slide)
+
 
 ### Go Do It Exercises
 
+[item]: # (slide)
 #### Browse the offering available in the Sandbox and make a sandbox reservation
+[item]: # (/slide)
 
+[item]: # (slide)
 #### APIC-EM task
 1. Find the instructions for the APIC-EM always on lab
 2. Find APIC-EM docs
@@ -65,12 +104,15 @@ Docmentation, tutorials and sample code are useless if developers don't have a s
 
 }
 3. Use that ticket to get a list of hosts managed on that controller
+[item]: # (/slide)
 
+[item]: # (slide)
 #### CMX Task
 1. Find the instructions for the CMX always on lab
 2. Find the CMX docs
 3. In Postman, figure out how to get a list of the notification subscriptions already on the server
 4. Reverse engineer the result to create a NEW notification subscription on the server
+[item]: # (/slide)
 
 ## API and Developer Support through DevNet
 
