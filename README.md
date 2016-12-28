@@ -8,89 +8,78 @@
 
 ## Abstract
 
-DevNet is Cisco's Developer Program available to anyone at http://developer.cisco.com.  It provides resources for Application Developers looking to leverage technologies like Spark and Tropo in their software, or build new Internet of Things applications with the IOx platform.  Infrastructure Developers looking to treat "Infrastructure as Code" will find everything they need to begin deploying and managing Cisco infrastrcuture components through APIs and other programmatic interfaces.  And students of any type will find Learning Labs, code samples, and development Sandboxes freely available at anytime.  In this module we will take a tour through the DevNet, exploring how it will help you "Learn, Code, Inspire and Connect" using Cisco's development platforms.  
+DevNet is Cisco's Developer Program.  DevNet is a free resources available to anyone at http://developer.cisco.com.  It provides resources for Application Developers and Infrastructure Developers.  DevNet is useful for Application Developers looking to leverage technologies like Spark and Tropo in their software, or build new Internet of Things applications with analytics and the IOx platform.  Similarly, Infrastructure Developers looking to treat "Infrastructure as Code" will find everything they need to begin deploying and managing Cisco infrastructure components through APIs and other programmatic interfaces.  Those looking to learn and gain new skills will find Learning Labs, code samples, and development Sandboxes freely available at anytime.  In this module we will take a tour through the DevNet, and explore how it will help you "Learn, Code, Inspire and Connect" using Cisco's development platforms.  
 
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide01.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide02.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide03.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide04.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide05.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide06.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide07.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide08.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide09.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide10.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide11.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide12.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide13.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide14.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide15.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide16.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide17.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide18.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide19.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide20.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide21.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide22.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide23.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide24.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide25.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide26.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide27.png)
-[item]: # (/slide)
-[item]: # (slide)
-![](DevNet-overview-slides-may-25-2016/Slide28.png)
-[item]: # (/slide)
+[Finding and Accessing Cisco Development Docs](https://developer.cisco.com)
+
+## Why Do We Care?
+
+Though DevNet provides a number of assets, the most important is to provide context around why an application developer would write software that integrates with certain Cisco products and how to actually achieve that those goals.  The best and most adopted APIs can track their success to documentation that is easy to find, understand and use.  As a result, DevNet has an equally important role to evangelize and guide internal teams to create excellent developer resources.
+
+The DevNet portal is currently broken up into DevCenters that contain several microsites pertaining to individual technologies.  In addition, there are some "spoke" sites off of the DevNet "hub".  Cisco Spark (https://developer.ciscospark.com) is an example of this.
+
+### Go Do It Exercises
+
+#### APIC-EM task
+1. Find APIC-EM docs through DevNet
+2. Find the API call to identify the hosts managed by the controller
+3. Run the API call in documentation to create a ticket (aka access token) (username: devnetuser, password: Cisco123)
+
+#### CMX task
+1. Find CMX docs through DevNet
+2. Find API call to identify the number of clients being tracked by the mobility services engine
+3. Run the API call in the documentation (username: learning, password: learning)
+
+#### Spark task
+1. Find Spark docs through DevNet
+2. Find API call to identify list of rooms you are a member of
+3. Run the API call in the documentation to list the rooms
+
+## [Learning Labs](https://learninglabs.cisco.com)
+
+DevNet also prides itself on being an educational organization.  Starting at Cisco Live! US 2014, DevNet introduced [Learning Labs](https://learninglabs.cisco.com).  Learning Labs are self paced tutorials lasting 15-40 minutes in length designed to introduce users to new technologies in a step by step manner.  They are now organized into modules and tracks to allow users to focus on the labs that pertain specifically to their goals
+
+### Go Do It Exercises
+
+#### Pick 2 learning labs of interest and complete them
+#### [Building new Learning Labs](https://github.com/denapom11/imapex101/blob/master/module6/LearningLabs.md)
+
+DevNet provides the ability for any internal engineer or doc writer to build out a learning lab on a topic that they feel the larger developer community may find useful.  Documentation on how to do this is covered [here](https://github.com/denapom11/imapex101/blob/master/module6/LearningLabs.md)
+
+
+## Sandboxes
+
+Docmentation, tutorials and sample code are useless if developers don't have a sufficient environment to run their code against.  That's where the [DevNet Sandbox](https://devnetsandbox.cisco.com) comes in.  The DevNet Sandbox provides a few dozen combinations of technologies and infrastructure topologies for reservation or anytime use (these are know as "Always-On").  This allows application developers to have an environment to test out their applications or solutions without having to spend a lot of time and/or money to get their lab up and running.  
+
+### Go Do It Exercises
+
+#### Browse the offering available in the Sandbox and make a sandbox reservation
+
+#### APIC-EM task
+1. Find the instructions for the APIC-EM always on lab
+2. Find APIC-EM docs
+2. In Postman figure out how to create an API ticket on the APIC-EM always on Sandbox using credentials
+{
+    "username":"devnetuser",
+    "password":"Cisco123!"
+
+}
+3. Use that ticket to get a list of hosts managed on that controller
+
+#### CMX Task
+1. Find the instructions for the CMX always on lab
+2. Find the CMX docs
+3. In Postman, figure out how to get a list of the notification subscriptions already on the server
+4. Reverse engineer the result to create a NEW notification subscription on the server
+
+## API and Developer Support through DevNet
+
+Downstream, as developers are working with the technologies in the sandboxes or in their own labs, they may come across some issues that they can't figure out, either because the documentation is bad *gasp*, or their problem is new, or there is a bug in the platform *double gasp*.  This is where support comes into play.
+
+The first line of defense are the [DevNet Communities](https://communities.cisco.com/commmunity/developer).  This area is split up in relation to all of the technologies DevNet supports so for each microsite there is a community for discussion forums and blog content.  Though there is no SLA and response is best effort, DevNet staff monitor these forums daily and respond when the community does not or cannot.  
+
+The second line of defense is a support ticket.  This is a benefit of the solution partner program or can be purchased on an ad-hoc basis.  Tickets are assigned to engineers directly who provide 1 on 1 developer support and potentially work hand in hand with TAC should it be a product issue.  These engineers are the third party developers' main advocate
+
+## Hackathon and Meetup Support
+
+From all the Cisco Live events, to global hackathons and conferences, if there are developers, DevNet is there.  Through our ever expanding team of Dev Evangelists, DevNet is represented all over the world touting the benefits of working with our myriad of technologies.  In a month or so we'll be launching the DevNet Events portal, allowing internal users to submit a request for DevNet to support events inside and outside of the company.  If we have the resources and it makes sense for us to be there (oh and if there is enough money for food and travel) then we'll be there to support it and reach out to the developers.
