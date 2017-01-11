@@ -1,5 +1,5 @@
-## Summary: Developer Support
+## Summary: DevNet Sandbox
 
-* Developer support can help clarify documentation or work around bugs in the platform.
-* DevNet Communities is the community-based support platform
-* Developers and Partners can also purchase support tickets.
+* Reservation-based or shared environments for trying out your code
+* Linked up with DevNet Learning Labs in most cases
+

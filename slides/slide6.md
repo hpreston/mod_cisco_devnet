@@ -1,4 +1,4 @@
-#### Spark task
-1. Find Spark docs through DevNet
-2. Find API call to identify list of rooms you are a member of
-3. Run the API call in the documentation to list the rooms
+#### CMX task
+1. Find CMX docs through DevNet
+2. Find API call to identify the number of clients being tracked by the mobility services engine
+3. Run the API call in the documentation (username: learning, password: learning)

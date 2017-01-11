@@ -4,7 +4,15 @@
 
 # Module: Leveraging Cisco DevNet
 
+[item]: # (/slide)
+
 [Link to Slides](slides/slide.html)
+
+[item]: # (slide)
+
+## developer.cisco.com
+
+![](images/devnet_home.jpg)
 
 [item]: # (/slide)
 
@@ -29,6 +37,11 @@ The DevNet portal is currently broken up into DevCenters that contain several mi
 
 [item]: # (slide)
 ### Go Do It Exercises
+
+* APIC-EM
+* CMX
+* Cisco Spark
+
 [item]: # (/slide)
 
 [item]: # (slide)
@@ -52,10 +65,23 @@ The DevNet portal is currently broken up into DevCenters that contain several mi
 3. Run the API call in the documentation to list the rooms
 [item]: # (/slide)
 
+[item]: # (slide)
 
 ## [Learning Labs](https://learninglabs.cisco.com)
 
+![](images/devnet_learninglabs1.jpg)
+
+[item]: # (/slide)
+
 Developers love learning new things, and DevNet offers educational content.  Starting at Cisco Live! US 2014, DevNet introduced [Learning Labs](https://learninglabs.cisco.com).  Learning Labs are self paced tutorials that last 15-40 minutes.  They are designed to introduce developers to new technologies in a step-by-step manner.  The Labs are organized into Modules and Tracks to allow users to focus on the labs that pertain specifically to their goals (e.g., Network Programmability, Cloud Collaboration applications, Infrastructure Programmability and so on).  Because Modules and Tracks contain many learning labs, completion of a Module or Track can be many hours of content and exercises.
+
+[item]: # (slide)
+
+## Learning Lab Browser
+
+![](images/devnet_learninglabs2.jpg)
+
+[item]: # (/slide)
 
 [item]: # (slide)
 ## Summary: Learning Labs
@@ -67,6 +93,10 @@ Developers love learning new things, and DevNet offers educational content.  Sta
 
 [item]: # (slide)
 ### Go Do It Exercises
+
+* Review Tracks
+* Complete 2 Labs
+
 [item]: # (/slide)
 
 [item]: # (slide)
@@ -87,8 +117,13 @@ Developers love learning new things, and DevNet offers educational content.  Sta
 
 DevNet provides the ability for any internal engineer or doc writer to build out a learning lab on a topic that they feel the larger developer community may find useful.  Documentation on how to do this is covered [here](LearningLabs.md)
 
+[item]: # (slide)
 
 ## Sandboxes
+
+![](images/devnet_sandbox1.jpg)
+
+[item]: # (/slide)
 
 Documentation, tutorials and sample code are great, but a developer also needs to run code against an environment.  That's where the [DevNet Sandbox](https://devnetsandbox.cisco.com) comes in.  The DevNet Sandbox provides a few dozen combinations of technologies and infrastructure topologies that can be reserved or that are shared and are "always on".  This allows application developers to have an environment to test out their applications or solutions without having to spend a lot of time and/or money to get their lab up and running.  Many of the Learning Labs utilize the DevNet Sandbox for a hands-on learning experience.
 
@@ -97,10 +132,18 @@ Documentation, tutorials and sample code are great, but a developer also needs t
 
 * Reservation-based or shared environments for trying out your code
 * Linked up with DevNet Learning Labs in most cases
+
 [item]: # (/slide)
 
+[item]: # (slide)
 
 ### Go Do It Exercises
+
+* Reservation
+* APIC-EM Always On
+* CMX Always On
+
+[item]: # (/slide)
 
 [item]: # (slide)
 #### Browse the offering available in the Sandbox and make a sandbox reservation
@@ -111,12 +154,17 @@ Documentation, tutorials and sample code are great, but a developer also needs t
 1. Find the instructions for the APIC-EM always on lab
 2. Find APIC-EM docs
 2. In Postman figure out how to create an API ticket on the APIC-EM always on Sandbox using credentials
+
+```
 {
     "username":"devnetuser",
     "password":"Cisco123!"
 
 }
+```
+
 3. Use that ticket to get a list of hosts managed on that controller
+
 [item]: # (/slide)
 
 [item]: # (slide)
@@ -127,11 +175,33 @@ Documentation, tutorials and sample code are great, but a developer also needs t
 4. Reverse engineer the result to create a NEW notification subscription on the server
 [item]: # (/slide)
 
+[item]: # (slide)
+
 ## API and Developer Support through DevNet
+
+![](images/devnet_support1.jpg)
+
+[item]: # (/slide)
 
 Downstream, as developers are working with the technologies in the sandboxes or in their own labs, they may come across some issues that they can't figure out, either because the documentation is bad *gasp*, or their problem is new, or there is a bug in the platform *double gasp*.  This is where support comes into play.
 
+[item]: # (slide)
+
+## Developer Communities
+
+![](images/devnet_support2.jpg)
+
+[item]: # (/slide)
+
 The first line of defense are the [DevNet Communities](https://communities.cisco.com/commmunity/developer).  This area is split up in relation to all of the technologies DevNet supports so for each microsite there is a community for discussion forums and blog content.  Though there is no SLA and response is best effort, DevNet staff monitor these forums daily and respond when the community does not or cannot.  
+
+[item]: # (slide)
+
+## Support Ticket
+
+![](images/devnet_support3.jpg)
+
+[item]: # (/slide)
 
 The second line of defense is a support ticket.  This is a benefit of the solution partner program or can be purchased on an ad-hoc basis.  Tickets are assigned to engineers directly who provide 1 on 1 developer support and potentially work hand in hand with TAC should it be a product issue.  These engineers are the third party developers' main advocate.
 
@@ -143,9 +213,17 @@ The second line of defense is a support ticket.  This is a benefit of the soluti
 * Developers and Partners can also purchase support tickets.
 [item]: # (/slide)
 
+[item]: # (slide)
+
 ## Hackathon and Meetup Support
 
+![](images/devnet_events1.jpg)
+
+[item]: # (/slide)
+
 DevNet supports CiscoLive events globally, to independently organized hackathons and conferences.  If there are developers, DevNet wants to be there.  Through our team of Dev Evangelists, DevNet is represented all over the world explaining the benefits of working with Cisco and related technologies.  Upcoming events can be found at [https://communities.cisco.com/community/developer](https://communities.cisco.com/community/developer)
+
+[item]: # (slide)
 
 ## Conclusion
 
@@ -155,3 +233,7 @@ DevNet supports CiscoLive events globally, to independently organized hackathons
 * Developer support options
 * DevNet represents at many hackathons and events around the world
 * Upcoming events can be found at [https://communities.cisco.com/community/developer](https://communities.cisco.com/community/developer)
+
+[item]: # (/slide)
+
+
