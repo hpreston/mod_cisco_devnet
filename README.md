@@ -6,7 +6,7 @@
 
 [item]: # (/slide)
 
-[Link to Slides](slides/slide.html)
+[Link to Slides](https://rawgit.com/imapex-training/mod_cisco_devnet/master/slides/index.html#/)
 
 [item]: # (slide)
 
