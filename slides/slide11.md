@@ -1,4 +1,5 @@
-## Summary: DevNet Sandbox
+### Go Do It Exercises
 
-* Reservation-based or shared environments for trying out your code
-* Linked up with DevNet Learning Labs in most cases
+* Review Tracks
+* Complete 2 Labs
+

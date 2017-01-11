@@ -1,3 +1,5 @@
-#### Pick 2 learning labs of interest and complete them
+## Summary: Learning Labs
 
-* Popular labs include the [Coding 101 Lab](https://learninglabs.cisco.com/lab/coding-101-rest-basics-ga/step/1) and [Sending Spark Messages Lab](https://learninglabs.cisco.com/lab/collab-spark-message/step/1)
+* An online resource for technical tutorials
+* Relatively short 15-40 minute labs
+* Labs can be combined to form educational Tracks.

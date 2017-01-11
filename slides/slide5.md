@@ -1,4 +1,4 @@
-#### CMX task
-1. Find CMX docs through DevNet
-2. Find API call to identify the number of clients being tracked by the mobility services engine
-3. Run the API call in the documentation (username: learning, password: learning)
+#### APIC-EM task
+1. Find APIC-EM docs through DevNet
+2. Find the API call to identify the hosts managed by the controller
+3. Run the API call in documentation to create a ticket (aka access token) (username: devnetuser, password: Cisco123)

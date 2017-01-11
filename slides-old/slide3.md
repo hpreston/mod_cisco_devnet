@@ -1,1 +1,0 @@
-### Go Do It Exercises
